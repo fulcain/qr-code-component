@@ -2,6 +2,7 @@
 
 /* start of main part*/
 body{
+    width:1440px;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
 }
