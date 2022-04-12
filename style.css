@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* start of main part*/
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+/*targets the image*/
+.qr-image{
+   width: 100%;
+  border-radius: 11px;
+}
+/*targets the first p tag*/
+.p1{
+    font-size: 22px;
+    font-weight:700;
+    margin-left: 10px;
+    color: hsl(218, 44%, 22%);
+}
+/*targets the secound p tag*/
+.p2{
+    font-size: 15px;
+    font-weight:400;
+    color: hsl(220, 15%, 55%);
+}
+/* targets the qr code element that we made*/
+.qr-code{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    width: 250px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 35%);
+
+}
+/* end of main part*/
+
+.attribution {
+    margin: 35px;
+    font-size: 11px;
+    font-weight: 800;
+    text-align: center;
+}
+.attribution a{
+    text-decoration: none;
+}
+.attribution a:visited{
+    color:blue;
+}
+.attribution a:default{
+    color: blue;
+}
+.attribution a:hover{
+    text-decoration: underline;
+    text-decoration-color: hsl(218, 44%, 22%);
+    text-decoration-style: double;
+}
